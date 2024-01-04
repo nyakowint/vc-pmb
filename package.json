@@ -1,0 +1,23 @@
+{
+  "name": "premid-bridge",
+  "version": "1.0.0",
+  "description": "Horror replacement for electron bloat i mean the premid desktop app",
+  "main": "index.js",
+  "scripts": {
+    "go": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.8.9",
+    "@types/ws": "^8.5.8",
+    "socket.io": "^4.6.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.1.3",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
